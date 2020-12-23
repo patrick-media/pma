@@ -22,3 +22,9 @@ td.nav {
 td.nav:hover {
   background-color: #333333;
 }
+td.hi {
+  background-color: #333333;
+}
+a.hi {
+  color: white;
+}
