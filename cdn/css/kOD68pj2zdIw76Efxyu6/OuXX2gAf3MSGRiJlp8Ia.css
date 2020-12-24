@@ -7,6 +7,16 @@
 .link-noline {
   text-decoration: none;
 }
+span.link-uline {
+  text-decoration: none;
+}
+span.link-uline:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+span.link-noline {
+  text-decoration: none;
+}
 .toplinks {
   color: gray;
   font-family: 'Verdana', sans-serif;
