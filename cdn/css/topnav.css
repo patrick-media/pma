@@ -18,13 +18,10 @@ a.nav {
   display: block;
   padding: 7px;
 }
-button.nav {
-  background-color: none;
-  color: white;
-  font-family: 'Verdana', sans-serif;
-  padding: 7px;
+span.nav-dd:hover {
+  cursor: pointer;
 }
-button.nav:hover {
+td.nav-dd:hover {
   cursor: pointer;
 }
 td.nav {
