@@ -1,0 +1,23 @@
+.login-elements {
+  border-style: solid;
+  border-color: #b0b0b0;
+  border-width: 2px;
+  border-radius: 10px;
+}
+.login-text {
+  font-family: 'Verdana', sans-serif;
+  font-size: 15px;
+}
+input {
+  font-family: 'Verdana', sans-serif;
+}
+.login-btn {
+  opacity: 50%;
+}
+.login-btn:hover {
+  cursor: no-drop;
+}
+.register-link {
+  text-decoration: none;
+  color: #369;
+}
