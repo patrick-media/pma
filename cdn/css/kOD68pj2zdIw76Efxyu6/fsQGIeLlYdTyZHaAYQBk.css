@@ -11,6 +11,7 @@
 }
 .more-dropdown {
   margin: 0px;
+  margin-left: 534px;
   position: fixed;
   display: none;
   background-color: white;
