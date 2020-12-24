@@ -1,0 +1,15 @@
+.tooltip {
+  border-radius: 4px;
+  background-color: black;
+  position: fixed;
+}
+.tooltip-text {
+  font-family: 'Verdana', sans-serif;
+  font-size: 12px;
+  color: #dedede;
+}
+#tt1 {
+  width: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
