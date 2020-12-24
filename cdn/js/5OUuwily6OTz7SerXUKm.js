@@ -1,17 +1,15 @@
-var dd1 = document.getElementById('dd1');
-var dd2 = document.getElementById('dd2');
 function dd1show() {
-  dd1.classList.add('show');
+  document.getElementById('dd1').style.display = 'block';
 }
 function dd2show() {
-  dd2.classList.add('show');
+  document.getElementById('dd2').style.display = 'block';
 }
 
 function dd1_hideothers() {
-  dd2.classList.remove('show');
+  document.getElementById('dd2').style.display = 'none';
 }
 function dd2_hideothers() {
-  dd1.classList.remove('show');
+  document.getElementById('dd1').style.display = 'none';
 }
 /*
 var dd1 = document.getElementById('dd1');
