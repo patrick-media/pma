@@ -1,9 +1,19 @@
+var dd1 = document.getElementById('dd1');
+var dd2 = document.getElementById('dd2');
 function dd1show() {
-  document.getElementById('dd1').classList.add('show');
+  dd1.classList.add('show');
 }
 function dd2show() {
-  document.getElementById('dd2').classList.add('show');
+  dd2.classList.add('show');
 }
+
+function dd1_hideothers() {
+  dd2.classList.remove('show');
+}
+function dd2_hideothers() {
+  dd1.classList.remove('show');
+}
+/*
 var dd1 = document.getElementById('dd1');
 var dd2 = document.getElementById('dd2');
 document.addEventListener('click', function(event) {
@@ -16,3 +26,4 @@ document.addEventListener('click', function(event) {
     document.getElementById('dd2').classList.add('show');
   }
 });
+*/
