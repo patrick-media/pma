@@ -35,8 +35,8 @@ body,html{height:100%;}
   text-align: left;
   text-decoration: none;
 }
-.show {
-  display: block;
+.dd-hi {
+  background-color: #b0b0b0;
 }
 .all-container {
   width: 100%;
