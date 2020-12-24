@@ -19,13 +19,7 @@ a.nav {
   display: block;
   padding: 7px;
 }
-span.nav-dd {
-  color: #dedede;
-}
-span.nav-dd:hover {
-  cursor: pointer;
-}
-td.nav-dd:hover {
+span.nav:hover {
   cursor: pointer;
 }
 td.nav {
@@ -33,6 +27,7 @@ td.nav {
 }
 td.nav:hover {
   background-color: #333333;
+  cursor: pointer;
 }
 td.hi {
   background-color: #333333;
