@@ -15,6 +15,6 @@
   margin-left: 100px;
   margin-top: 100px;
 }
-#login-btn:hover #tt1 {
+.show {
   display: block;
 }
