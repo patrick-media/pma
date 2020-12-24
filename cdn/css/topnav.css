@@ -19,6 +19,9 @@ a.nav {
   display: block;
   padding: 7px;
 }
+span.nav-dd {
+  color: #dedede;
+}
 span.nav-dd:hover {
   cursor: pointer;
 }
