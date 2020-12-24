@@ -4,7 +4,7 @@
   position: fixed;
   display: block;
   background-color: white;
-  width: 100px;
+  width: 200px;
   border-style: solid;
   border-color: #b0b0b0;
   border-width: 2px;
@@ -14,9 +14,9 @@
   margin: 0px;
   margin-top: 32px;
   position: fixed;
-  display: block;
+  display: none;
   background-color: white;
-  width: 100px;
+  width: 200px;
   border-style: solid;
   border-color: #b0b0b0;
   border-width: 2px;
@@ -33,6 +33,7 @@
   font-family: 'Verdana', sans-serif;
   font-weight: 11px;
   text-align: left;
+  text-decoration: none;
 }
 .show {
   display: block;
