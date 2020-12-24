@@ -1,61 +1,62 @@
-  
 <!DOCTYPE html>
 <html>
   <head>
     <title>My Account</title>
     <link rel="stylesheet" type="text/css" href="/cdn/css/topnav.css">
+    <link rel="stylesheet" type="text/css" href="/cdn/css/kOD68pj2zdIw76Efxyu6/fsQGIeLlYdTyZHaAYQBk.css">
     <link rel="icon" type="image/gif" href="/cdn/img/e2sQKLZJi3zarpSkybCZ/favicon1.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="pma, patrickmedia, patrick media association, patrickmediaassociation, patrick media, pmedia">
     <meta name="description" content="The Internet's encyclopedia. Search for websites, images, videos, and more with Patrick Media Association's services.">
     <meta name="author" content="Patrick Schmitz">
     <meta charset="UTF-8">
+    <script src="/cdn/js/5OUuwily6OTz7SerXUKm.js"></script>
   </head>
   <body>
     <table class="nav" cellpadding="0" cellspacing="0" border="0">
       <tbody>
         <tr>
-          <td class="nav hi">
-            <a class="nav hi" href="/myaccount/">
-              <span class="nav">+Account</span>
+          <td class="nav hi" onclick="dd1show();" width="101">
+            <a class="nav" href="#">
+              <span class="nav hi">+Account</span>
             </a>
           </td>
-          <td class="nav">
+          <td class="nav" width="80">
             <a class="nav" href="/search/">
               <span class="nav">Search</span>
             </a>
           </td>
-          <td class="nav">
+          <td class="nav" width="65">
             <a class="nav" href="/maps/">
               <span class="nav">Maps</span>
             </a>
           </td>
-          <td class="nav">
+          <td class="nav" width="68">
             <a class="nav" href="/music/">
               <span class="nav">Music</span>
             </a>
           </td>
-          <td class="nav">
+          <td class="nav" width="66">
             <a class="nav" href="/news/">
               <span class="nav">News</span>
             </a>
           </td>
-          <td class="nav">
+          <td class="nav" width="66">
             <a class="nav" href="/mail/">
               <span class="nav">PMAil</span>
             </a>
           </td>
-          <td class="nav">
+          <td class="nav" width="88">
             <a class="nav" href="/storage/">
               <span class="nav">Storage</span>
             </a>
           </td>
-          <td class="nav">
-            <a class="nav" href="#">
+          <td class="nav" width="86">
+            <a class="nav" href="#" onclick="dd2show();">
               <span class="nav">More &#9660;</span>
             </a>
           </td>
-          <td width="1198">
+          <td onclick="dd_hideall();">
           </td>
           <td width="102">
             <a href="/">
@@ -65,5 +66,45 @@
         </tr>
       </tbody>
     </table>
+    <div class="account-dropdown" id="dd1">
+      <div class="dropdown-item dd-hi">
+        <span class="dropdown-content">My account</span>
+      </div>
+      <a href="/account/login/" class="dropdown-content">
+        <div class="dropdown-item">
+          <span class="dropdown-content">Login</span>
+        </div>
+      </a>
+      <a href="/account/signup" class="dropdown-content">
+        <div class="dropdown-item">
+          <span class="dropdown-content">Sign up</span>
+        </div>
+      </a>
+    </div>
+    <div class="more-dropdown" id="dd2">
+      <a href="/support/" class="dropdown-content">
+        <div class="dropdown-item">
+          <span class="dropdown-content">Support</span>
+        </div>
+      </a>
+      <a href="/community/help/" class="dropdown-content">
+        <div class="dropdown-item">
+          <span class="dropdown-content">Community Help Center</span>
+        </div>
+      </a>
+      <a href="/bugreport/" class="dropdown-content">
+        <div class="dropdown-item">
+          <span class="dropdown-content">Report issues/bugs</span>
+        </div>
+      </a>
+      <a href="/othersites/" class="dropdown-content">
+        <div class="dropdown-item">
+          <span class="dropdown-content">Sister sites</span>
+        </div>
+      </a>
+    </div>
+    <div class="all-container" onclick="dd_hideall();">
+      <span>Unable to show page content (Error NoPageContent, server-side error)</span>
+    </div>
   </body>
 </html>
