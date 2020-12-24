@@ -11,6 +11,7 @@ table.nav {
 span.nav {
   font-family: 'Verdana', sans-serif;
   font-size: 11px;
+  color: #dedede;
 }
 a.nav {
   text-decoration: none;
