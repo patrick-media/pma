@@ -30,3 +30,25 @@ span.link-noline {
   padding: 5px;
   padding-left: 20px;
 }
+.a-searchbtn {
+  padding: 5px;
+  font-family: 'Verdana', sans-serif;
+  border-style: none;
+}
+.a-searchbtn:hover {
+  border-style: solid;
+}
+.b-searchbtn {
+  padding: 5px;
+  font-family: 'Verdana', sans-serif;
+  border-style: none;
+}
+.b-searchbtn:hover {
+  border-style: solid;
+}
+.bottomlinks {
+  color: gray;
+  font-family: 'Verdana', sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
