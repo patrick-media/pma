@@ -20,7 +20,7 @@ span.link-noline {
 .toplinks {
   color: gray;
   font-family: 'Verdana', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
 }
 .searchbox-large {
@@ -34,31 +34,26 @@ span.link-noline {
   border-width: 1px;
 }
 .a-searchbtn {
-  padding: 5px;
+  padding: 7px;
   font-family: 'Verdana', sans-serif;
   border-style: none;
+  outline: none;
 }
 .a-searchbtn:hover {
-  border-style: solid;
+  background-color: #d1d1d1;
 }
 .b-searchbtn {
-  padding: 5px;
+  padding: 7px;
   font-family: 'Verdana', sans-serif;
   border-style: none;
+  outline: none;
 }
 .b-searchbtn:hover {
-  border-style: solid;
+  background-color: #d1d1d1;
 }
 a.bottomlinks {
   color: gray;
   font-family: 'Verdana', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
-}
-td.bottomlinks {
-  margin: 5px;
-  background-color: #e3e3e3;
-}
-td.bottomlinks:hover {
-  background-color: #b3b3b3;
 }
