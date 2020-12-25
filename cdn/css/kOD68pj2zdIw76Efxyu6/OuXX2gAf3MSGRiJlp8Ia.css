@@ -32,6 +32,7 @@ span.link-noline {
   border-style: solid;
   border-color: lightgray;
   border-width: 1px;
+  outline: none;
 }
 .a-searchbtn {
   padding: 7px;
