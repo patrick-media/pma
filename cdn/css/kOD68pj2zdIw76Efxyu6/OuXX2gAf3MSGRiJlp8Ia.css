@@ -41,6 +41,7 @@ span.link-noline {
 }
 .a-searchbtn:hover {
   background-color: #d1d1d1;
+  cursor: pointer;
 }
 .b-searchbtn {
   padding: 7px;
@@ -50,6 +51,7 @@ span.link-noline {
 }
 .b-searchbtn:hover {
   background-color: #d1d1d1;
+  cursor: pointer;
 }
 a.bottomlinks {
   color: gray;
