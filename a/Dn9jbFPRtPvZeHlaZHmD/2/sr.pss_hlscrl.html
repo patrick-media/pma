@@ -6,24 +6,24 @@
       body {
         overflow: hidden;
       }
-      div {
-        padding: 5px 10px 5px 10px;
+      span {
+        font-family: 'Verdana', sans-serif;
+        font-size: 18px;
+        color: white;
+      }
+      marquee {
+        font-family: 'Verdana', sans-serif;
+        font-size: 18px;
+        color: white;
+        padding-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
       }
     </style>
-    <script>
-      function scroll() {
-        for (posX = 1000; posX = -1000; posX--;) {
-          document.getElementById('scroller').style.transform = 'translateX(posX)';
-        }
-      }
-    </script>
   </head>
-  <body onload="scroll();">
-    <div style="background-color:black;">
-      <div style="background-color:black;">
-        <span style="font-family:'Verdana',sans-serif; font-size:18px; color:white;">HEADLINES:</span>
-      </div>
-      <span id="scroller" style="font-family:'Verdana',sans-serif; font-size:18px; color:white;">Sample Text</span>
-    </div>
+  <body>
+    <span>HEADLINES:</span>
+    <marquee direction="left">Sample Headline</marquee>
   </body>
 </html>
