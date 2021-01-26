@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Chicago';
+  src: url(./ChicagoFLF.ttf);
+}
+@keyframes a_fadein {
+  0% {opacity:0%;}
+  25% {opacity:25%;}
+  50% {opacity:50%;}
+  75% {opacity:75%;}
+  100% {opacity:100%;}
+}
+@keyframes a_fadeout {
+  0% {opacity:100%;}
+  25% {opacity:75%;}
+  50% {opacity:50%;}
+  75% {opacity:25%;}
+  100% {opacity:0%;}
+}
+table.sugar-nav {
+  background-image: linear-gradient(#6b6b6b, #454545);
+  border-bottom-color:black;
+  border-width:1px;
+}
+td.sugar-nav {
+  padding-top:5px;
+  padding-bottom:5px;
+  text-align:center;
+  padding-left:0px;
+  padding-right:0px;
+  border-style:solid;
+  border-width:1px;
+  border-right-color:#454545;
+  border-top-color:#666666;
+  border-left-color:#666666;
+}
+td.spacer {
+}
+td.hoverable:hover {
+  background-color:#3b3b3b;
+}
+a.defaultlinks {
+  text-decoration:none;
+}
+a.logo {
+  font-family: 'Chicago';
+  color:white;
+  padding-bottom:5px;
+  padding-top:5px;
+}
+a.pmalogo {
+  font-family:'Verdana',sans-serif;
+  color:white;
+  font-weight:bold;
+  padding-bottom:5px;
+  padding-top:5px;
+}
+a.sugar-nav {
+  font-family: 'Chicago';
+  color:white;
+  text-decoration:none;
+  font-size:14px;
+  padding-top:7px;
+  padding-bottom:7px;
+  padding-left:10px;
+  padding-right:10px;
+}
+table.dropdown-general {
+  position:fixed;
+  text-align:left;
+}
+td.dropdown-general {
+  background-color:#3b3b3b;
+}
+td.dropdown-general:hover {
+  background-color:#1f1f1f;
+}
+a.dd-link {
+  padding-left:5px;
+  font-family: 'Chicago';
+  color:white;
+  text-decoration:none;
+  font-size:14px;
+}
+.dd_community {
+  margin-left:46%;
+  display:none;
+}
+.nav-hi {
+  background-color:#3b3b3b;
+}
+#pa80 {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+  margin-left:0px;
+  display:none;
+}
