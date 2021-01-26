@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/aliengames/static/sugar-ui.css">
+    <style>
+      html body {
+        padding:0px;
+        margin:0px;
+        background-color:white;
+        width:100%;
+        height:100%;
+      }
+    </style>
+    <script src="/aliengames/static/nav_dropdowns.js"></script>
+  </head>
+  <body>
+    <table cellpadding="0" cellspacing="0" border="0" class="sugar-nav" width="100%">
+      <tbody>
+        <tr>
+          <td class="sugar-nav">
+            <a href="/aliengames/" class="pmalogo defaultlinks">PMA</a>&nbsp;<a href="/aliengames/" class="logo defaultlinks">Alien</a>
+          </td>
+          <td class="sugar-nav spacer" width="10%"> <!-- spacer --> </td>
+          <td class="sugar-nav hoverable" width="30">
+            <!-- media1 -->
+          </td>
+          <td class="sugar-nav hoverable" width="30">
+            <!-- media2 -->
+          </td>
+          <td class="sugar-nav hoverable" width="30">
+            <!-- media3 -->
+          </td>
+          <td class="sugar-nav hoverable">
+            <a href="/aliengames/" class="sugar-nav">Home</a>
+          </td>
+          <td class="sugar-nav hoverable">
+            <a href="/aliengames/store/" class="sugar-nav">Store</a>
+          </td>
+          <td class="sugar-nav hoverable" id="btn_community_td" onmouseover="ddshow_community();" onmouseleave="dd_hideall();">
+            <a href="/aliengames/community/" class="sugar-nav">Community</a>
+          </td>
+          <td class="sugar-nav hoverable">
+            <a href="/aliengames/support/" class="sugar-nav">Support</a>
+          </td>
+          <td class="sugar-nav spacer" width="19"><!-- spacer --></td>
+          <td class="sugar-nav hoverable" style="float:right;padding-bottom:6px;" onclick="">
+            <!-- language -->
+            <a href="javascript:void(0);" class="sugar-nav">Language</a>
+            <div id="pa80"></div>
+          </td>
+          <td class="sugar-nav hoverable" style="float:right;padding-bottom:6px;">
+            <!-- login -->
+            <a href="/aliengames/login/" class="sugar-nav">Login</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table cellpadding="0" cellspacing="0" border="0" class="dropdown-general dd_community" id="dd_community" onmouseover="ddshow_community();" onmouseleave="dd_hideall();">
+      <tbody>
+        <tr>
+          <td class="dropdown-general">
+            <a href="/aliengames/community/" class="dd-link" style="padding-right:18px;">Discussions</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="dropdown-general">
+            <a href="/aliengames/community/helpcenter/" class="dd-link" style="padding-right:13px;">Help Center</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="dropdown-general">
+            <a href="/aliengames/community/announcements/" class="dd-link" style="padding-right:10px;" title="Official Announcements">Official An...</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="dropdown-general">
+            <a href="/aliengames/community/profiles/" class="dd-link" style="padding-right:46px;">Profiles</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
